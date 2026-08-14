@@ -19,6 +19,16 @@ Input: (= a b) Result: False
 Input:
 
 ```
+(if (and (> b a) (< b (* a b)))
+    b
+    a)
+```
+
+Result: 4
+
+Input:
+
+```
 (cond ((= a 4) 6)
       ((= b 4) (+ 6 7 a))
       (else 25))
