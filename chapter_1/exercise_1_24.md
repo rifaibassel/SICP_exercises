@@ -40,6 +40,6 @@ We have 1.33 / 1 = 1.33
 We have 1.66 / 1.33 = 1.2481203007518795
 We also ave 1.66 / 1 = 1.66
 
-We expect the ratio to be about ($\log{1000}$) = 9.965784284662087
+We expect the ratio to be about ($\log{1000000}/\log{1000}$) = 2
 
-Here our ratios are way less than the expected amount of around 9.965784284662087
+The computer clock is unable to detect how fast the fast-prime? algorithm actually runs and thus measures in addition to it multiple other things that the interpreter runs
